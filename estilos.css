@@ -1,0 +1,61 @@
+h1 { 
+    color:lawngreen;
+    font-family:'Footlight MT'
+}
+
+h3 {
+    color: blue;
+    font-family:'Franklin Gothic'
+}
+
+input {
+    background-color: gainsboro;
+    background-color: #222;
+    color: #0f0;
+    font-size:small;
+    padding: 10px;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+button {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif
+         width: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+}
+
+#bk10 {
+    background-color: lightcoral  
+}
+#bksumar {
+    background-color:lightgray;
+    font-family:Magneto;
+}
+#bkrestar {
+    background-color: lightgray;
+    font-family: Magneto;
+}
+#bkmultiplicar {
+    background-color: lightgray;
+    font-family: Magneto;
+}
+#bkdividir {
+    background-color: lightgray;
+    font-family: Magneto;
+}
+#bkclearDisplay {
+    background-color: lightgray;
+    font-family: Magneto;
+}
+#bkResultado {
+    background-color: lightgray;
+    font-family: Magneto;
+}
+#bkbackspace {
+    background-color: lightgray;
+    font-family: Magneto;
+}

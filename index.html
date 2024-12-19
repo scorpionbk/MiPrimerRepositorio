@@ -1,0 +1,46 @@
+﻿<html>
+
+<head>
+
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="Script.js"></script>
+    <title>Calculadora V1.0</title>
+
+</head >
+<body>
+    <h1>Hola Brian</h1>
+
+    <!--iniciamos mi primera página web-->
+
+    <h3>MI CALCULADORA BÁSICA</h3>
+
+    <div>
+        <input id="num1" type="text" placeholder="0" readonly />
+    </div>
+
+    <div>
+        <button id="bk1" onclick="Escribir('1')">1</button>   <!--escuchador del elemento , haga una funcion, propiedad o atribucion del boton-->
+        <button id="bk2" onclick="Escribir('2')">2</button>
+        <button id="bk3" onclick="Escribir('3')">3</button>
+        <button id="bkdividir" onclick="dividir('/')">÷</button>
+
+        <br>
+        <button id="bk4" onclick="Escribir('4')">4</button>     <!--los bk+# significa un nombre que le doy a modo personal a cada boton individualmente -->
+        <button id="bk5" onclick="Escribir('5')">5</button>
+        <button id="bk6" onclick="Escribir('6')">6</button>
+        <button id="bkmultiplicar" onclick="multiplicar('*')">x</button>
+        <button id="bkbackspace" onclick="backspace('←')">←</button>
+        <br>
+        <button id="bk7" onclick="Escribir('7')">7</button>
+        <button id="bk8" onclick="Escribir('8')">8</button>
+        <button id="bk9" onclick="Escribir('9')">9</button>
+        <button id="bkrestar" onclick="restar('-')">-</button>
+        <br>
+        <button id="bk10" onclick="Escribir('0')">0</button>
+        <button id="bkclearDisplay" onclick="clearDisplay('C')">C</button>
+        <button id="bkResult" onclick="Resultado('=')">=</button>
+        <button id="bksumar" onclick="sumar('+')">+</button>
+    </div>
+</body>
+ </html>
+
