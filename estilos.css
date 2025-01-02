@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ff6600; /* Naranja vibrante */
+    font-family: 'Arial Black', sans-serif; /* Fuente llamativa */
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    animation: mover 5s infinite alternate;
+}
+
+h3 {
+    color: #4CAF50; /* Verde moderno */
+    font-family: 'Georgia', serif; /* Fuente elegante */
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(20px);
+            
+    }
+}
+
+.calculadora {
+    background-color: #22252d;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 2em;
+    border: none;
+    background-color: #333333;
+    color: white;
+    border-radius: 10px;
+}
+
+.teclas button {
+    width: 70px;
+    height: 70px;
+    margin: 10px 5px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0a500;
+    transform: scale(1.1); /* Aumentar el tamaño */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra alrededor */
+}
+
+#bkClearDisplay {
+    background-color: #ff3b30;
+    color: white;
+}
+
+#bkDelete {
+    background-color: #ff9500;
+    color: white;
+}
+
+#bkpercent, #bkcomma, #bk00 {
+    background-color: #8e8e93;
+    color: white;
+}
+
+#bkResult {
+    background-color: #34c759;
+     color:  white;
+}
